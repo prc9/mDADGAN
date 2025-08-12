@@ -14,7 +14,7 @@ def dataset():
     input_lncRNA_drug = [[], []]
     input_mirna_lncRNA = [[], []]
 
-    md = pd.read_excel("../Data/dataset/MDGAHN-miDrug v1.0.xlsx", header=None, names=['mirna', 'drug'])
+    md = pd.read_excel("../Data/dataset/mDADGAN-miDrug v1.0.xlsx", header=None, names=['mirna', 'drug'])
     #md = pd.read_excel("../Data/dataset/ncDR.xlsx", header=None, names=['mirna', 'drug'])
     # md = pd.read_excel("../Data/dataset/RNAInter.xlsx", header=None, names=['mirna', 'drug'])
     # md = pd.read_excel("../Data/dataset/SM2miR3.xlsx", header=None, names=['mirna', 'drug'])
